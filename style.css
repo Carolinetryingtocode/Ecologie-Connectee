@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+html{
+    scroll-behavior: smooth;
+} */
+
+
+section, footer{
+    border: 4px solid none;
+}
+
+div,
+nav,
+header,
+article,
+form,
+h1,
+img,
+ul{
+    border: 4px solid none
+}
+
+span{
+    font-weight: bold;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.burger{
+    display: none;
+}
+
+hr{
+    width: 1440px;
+    height: 30px;
+    background: #3E6A42;
+    border: none;
+    box-sizing: border-box;
+}
+
+section{
+    border: 4px solid none;     
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(18px, 3vw , 21px);
+    text-align: justify;
+    color: #003901;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: clamp(40px,8vw,90px);
+    margin-bottom: 60px;
+    font-size: 90px;
+}
+
+/* ===============ACCUEIL================== */
+
+    #home{
+        background:url(Images/fougère.png) no-repeat center / cover ;
+        min-height: 746px;
+        color: white;
+       
+    }
+
+
+    header{
+        margin: 30px 50px;
+        justify-content: space-between;
+    }
+    
+    .burger{
+        display: none;
+    }
+    header img {
+        width: 48px;
+        height: 30px;
+        margin: 30px 0px;
+        
+    }
+    
+    nav {
+        gap:30px;
+        margin: 30px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #FFFFFF;
+        gap:30px;
+    }
+    
+    #home h1{
+        display: flex;
+        font-weight: bold;
+        font-size: clamp(40px,10vw,110px);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 600px;
+        align-items: flex-end;
+        margin-left: 76px;
+    }
+    
+    .logo {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+/* ===============INTRODUCTION================== */
+
+
+    .intro {
+        height: 571px; 
+        font-size: clamp(10px, 6vw,21px);
+        line-height: 162.69%;
+        justify-content: space-between;
+    }
+    
+    .intropara {
+        margin-left: 76px;
+        width: 650px;
+        height: 524px;
+    }
+    
+    .introtitre h2{
+        margin-top: 132px;
+        width: 638px;
+        height: 368px;
+        font-size: clamp(36px,8vw,64px);
+        line-height: 80px;
+        text-align: right;
+        margin-right: 70px;
+    }   
+
+/* ===============WAG================== */
+
+#WAG h2 {
+    font-size: clamp(40px,8vw,90px);
+}
+
+.WAGcontainer1 h2{
+    font-size: clamp(40px, 10vw, 90px);
+    line-height: 282px;
+    padding: 20px !important;    
+}
+
+#WAGcontainer1{
+    font-size: clamp(18px, 6vw, 21px);
+    width: 825px;
+    height: 282px;
+}
+
+#WAGcontainer1 img{
+    width: 10px;
+    height: 10px;
+}
+
+.WAGcontainer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+
+.box1{
+    width: 374px;
+}
+
+.box2{
+    width: 374px;
+}
+
+.box3{
+    width: 374px;
+}
+
+/* ===============GEEV================== */
+
+#geev {
+    margin: 70px;
+}
+
+#geev h2 {
+    font-size: clamp(40px,8vw,90px);
+}
+
+#geev p{
+    font-size: 21px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.fond {
+    background: url(Images/back_logo.png) no-repeat left;
+    gap: 60px;
+    margin-bottom: 50px;  
+}
+
+.partie2{
+    gap: 60px;
+}
+.partie2 p{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ===============BACK MARKET================== */
+
+
+#BM{
+    margin: 70px;
+}
+
+#BM h2 {
+    font-size: clamp(40px,8vw,90px);
+}
+
+#BM p{
+    font-size: 21px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.BMcontainer1 {
+    text-align: justify;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+
+.BMcontainer2 {
+   gap: 60px;
+}
+
+
+
+
+/* ===============YUKA================== */
+
+/* YUKA TITRE */
+
+#yuka{
+    border: 4px solid none;     
+     /* height: 1300px; */
+     margin: 70px 70px;
+    }
+    
+.yukatitre{
+    justify-content: flex-start;
+    margin-bottom: 30px; 
+}
+
+#yuka h2{
+    font-weight: bold;
+    font-size: clamp(40px,8vw,90px);     
+}
+
+/* YUKA PARAGRAPHE 1 */
+
+.yukapara1{
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.yukapara1 p{
+    font-size: clamp(18px,3vw,21px);
+    width: min(800px,95%);
+    text-align: justify;
+}
+
+
+/* YUKA PARAGRAPHE 2 */
+
+.yukapara2{
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.yukapara2 p{
+    font-size: clamp(18px,3vw,21px);
+    text-align: justify;
+    justify-content: flex-end;
+}
+
+.liste{
+    background: #F9B811 no-repeat center / cover;
+    list-style-position: inside;
+    border-radius:20%;
+    width: 2500px;
+}
+
+.liste h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+ul{
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 30px;
+    text-align : center;
+}
+
+
+/* ===============CONTACT================== */
+form{
+    margin: 50px 0 30px;
+    gap: 20px !important;
+    align-items: center;
+}
+ /* > * = tous les enfants directs */
+form > *{
+    width: min(600px, 95%);
+    height: 60px;
+    background: #DAEBC7;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(24px, 6vw, 18px);
+}
+
+#contact h2{
+    text-align: center;
+    font-size: clamp(40px,8vw,90px);
+}
+
+textarea{
+    height: 188px;
+}
+
+/* bouton Envoyer */
+form > *:last-child{
+    width: 210px;
+    height: 56px;
+    background: #003901;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 47px;
+    font-size: clamp(24px, 6vw, 18px);
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+
+/* ===============FOOTER================== */
+
+#footer{
+    background: url("Images/fougèrefooter.png") no-repeat center / cover;
+    min-height: 257px;
+    padding: 100px 40px 0 40px;
+
+}
+
+footer div{
+   border: 4px solid none;
+}
+#footer p{
+    height: 28px;
+    font-size: clamp(18px, 6vw, 21px);
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+.social-media{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#footer .social-media{
+    align-items: flex-end;
+}
+/* changement du form contact */
+
+
+
+/* ===============MEDIA QUERIES================== */
+
+@media (max-width: 650px){
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0; 
+    }
+
+    .burger{
+        background: #003901;
+        padding: 10px;
+        /* valeur passe au dessus des autres */
+        z-index: 1;
+    }
+    nav{
+        /* position passe par dessus les autres */
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #003901;
+        flex-direction: column;
+        justify-content: center !important;
+        /* valeur passe au dessus des autres */
+        transform: translateX(100%);
+        transition: 0.8s;
+    }
+
+    .menu-open{
+        transform: translateX(0);
+    }
+
+    .burger span{
+        width: 40px;
+        height: 5px;
+        background: #FFFFFF;
+        border-radius: 54px;
+        margin: 6px 0;
+        display: block;
+    }
+   
+    form{
+        margin: 0 auto 35px;
+    }
+
+    footer p .logo .social-media{
+        justify-content: center !important;
+    }
+
+    .logo{
+        align-items: center;
+    }
+    
+    h1{
+        align-items: center;
+    }
+
+    .iconesappear{
+        display: block;
+    }
+
+    .hidden{
+        display: none;
+    }
+}
